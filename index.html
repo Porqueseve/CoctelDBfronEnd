@@ -8,8 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <h1>Cocktail Information</h1>
   
-    <script src="script.js"></script>
+  <label for="cocktail">Elige un cocktail:</label>
+  <select id="cocktail">
+    <option selected disabled hidden>Elegir</option>
+    <option value="Margarita">Margarita</option>
+    <option value="Gin-Tonic">Gin-Tonic</option>
+    <option value="Caipirinha">Caipirinha</option>
+  </select>
+  <button onclick="consultarCocktail()">Buscar</button>
+
+  <button onclick="aleatorioCocktail()">Aleatorio</button>
+  <button onclick="todosCocktail()">Todos</button>
+
+  <div id="cocktail-info"></div>
+
+
+  <script src="script.js"></script>
 </body>
 </html>

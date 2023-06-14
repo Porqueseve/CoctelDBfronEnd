@@ -1,0 +1,46 @@
+body {
+    font-size: 20px;
+}
+
+.container {
+    width: 700px;
+  
+    margin: 20px;
+    position: relative;
+}
+
+
+.resultado {
+    width: 600px;
+    height: 250px;
+    position: relative;
+    margin: 20px;
+}
+
+.resultado-foto{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+}
+
+button,select,label{
+    margin: 30px;
+    height: 40px;
+    width: 200px;
+    font-size: 30px;
+}
+
+.resultado_texto {
+    position: relative;
+    top: 120px;
+    left: 250px;
+    font-size: 30px;
+  }
+  
+  .resultado_receta strong {
+    font-weight: bold;
+    
+    font-size: 50px;
+  }
